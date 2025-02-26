@@ -48,7 +48,7 @@ const ReferalModal = () => {
     ) {
       // API CALLING
       const res = await axios.post(
-        "http://localhost:8000/api/add/referral",
+        "https://accredian-backend-task-ruby.vercel.app/api/add/referral",
         referraldata
       );
       console.log(res.data);
